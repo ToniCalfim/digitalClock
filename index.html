@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<!-- General Info For This HTML file ******************************************
+ *
+ * Project      : digitalClock
+ * File Type    : HTML
+ * File Editor  : File was last edited using: VSCodium
+ * Description  :
+ * ****************************************************************************
+ * Author   : Toni Calfim (751127@gmail.com)
+ * ****************************************************************************
+ * Version  : Version 1.0.0.3
+ * Created  : Jan, 2023
+ * Modified : Jan, 2023
+ * Lincence : MIT
+ * ****************************************************************************
+ *
+ * ****************************************************************************
+ *
+-->
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Clock</title>
+
+    <!-- I now style the way I want it to be -->
+    <link href="./css/main.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+    <!-- It's important to see here the difference between div and span.
+
+        Div:   responds like blocks, and starts new lines.
+        Span:  doesn't respond like blocks, and never starts new lines.
+
+        Here we have many elements assigned to the same class.
+    -->
+
+    <div class="main-div">
+
+        <h1>Digital Clock</h1>
+
+        <div class="clock">
+
+            <div>
+
+                <span id="hours">--</span>
+                <span class="text">Hours</span>
+
+            </div>
+
+            <div>
+
+                <span id="minutes">--</span>
+                <span class="text">Minutes</span>
+
+            </div>
+
+            <div>
+
+                <span id="seconds">--</span>
+                <span class="text">Seconds</span>
+
+            </div>
+
+            <div>
+
+                <span id="ampm">--</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/digitalClock.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>
